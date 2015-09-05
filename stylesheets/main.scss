@@ -1,0 +1,49 @@
+@import '_partials/_vars';
+@import '_partials/_components';
+
+body {
+	background-color: $primary-col;
+	color: $white;
+}
+
+header {
+	margin-top: 5%;
+	text-align: center;
+}
+
+/* TEXT --------------------------------------------- */
+h1 {
+	font-family: $primary-font;
+	color: $white;
+	font-size: 3em;
+
+	&.title {
+		text-align: center;
+		padding: 20px 0;
+	}
+}
+
+/* SECTIONS ----------------------------------------- */
+nav {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+	ul {
+
+		li {
+			display: inline-block;
+      padding: 0 25px;
+			a {
+				text-decoration: none;
+				color: $white;
+				font-family: $primary-font;
+			}
+		}
+	}
+}
+
+#content {
+  font-family: $secondary-font;
+}

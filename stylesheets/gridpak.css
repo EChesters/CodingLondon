@@ -1,0 +1,227 @@
+/**
+ * Gridpak Beta SCSS 
+ *
+ * Generator - http://gridpak.com/
+ * Created by @erskinedesign
+ */
+/* Reusable column setup */
+.col {
+  border: 0px solid transparent;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-background-clip: padding-box !important;
+  -webkit-background-clip: padding-box !important;
+  background-clip: padding-box !important; }
+
+/* 1. 4 Column Grid 0px - 519px 
+----------------------------------------------------------------------------- 
+
+Span 1:    24.25%
+Span 2:    49.5%
+Span 3:    74.75%
+Span 4:    100%
+
+----------------------------------------------------------------------------- */
+@media screen and (min-width: 0px) and (max-width: 519px) {
+  .col {
+    margin-left: 1%;
+    padding: 0 1%; }
+
+  /* --- Gridpak variables ---*/
+  .row .col:first-child {
+    margin-left: 0; }
+
+  /*
+  Add your semantic classnames in alongside their corresponding spans here. e.g.
+  
+  .span_3,
+  .my_semantic_class_name {
+      ...
+  }
+  
+  */
+  .span_1 {
+    width: 24.25%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 1%; }
+
+  .span_2 {
+    width: 49.5%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 1%; }
+
+  .span_3 {
+    width: 74.75%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 1%; }
+
+  .span_4 {
+    margin-left: 0;
+    width: 100%; } }
+/* 2. 6 Column Grid 520px - 859px 
+----------------------------------------------------------------------------- 
+
+Span 1:    15.8333333333%
+Span 2:    32.6666666667%
+Span 3:    49.5%
+Span 4:    66.3333333333%
+Span 5:    83.1666666667%
+Span 6:    100%
+
+----------------------------------------------------------------------------- */
+@media screen and (min-width: 520px) and (max-width: 859px) {
+  .col {
+    margin-left: 1%;
+    padding: 0 1%; }
+
+  /* --- Gridpak variables ---*/
+  .row .col:first-child {
+    margin-left: 0; }
+
+  .span_1 {
+    width: 15.83333%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 1%; }
+
+  .span_2 {
+    width: 32.66667%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 1%; }
+
+  .span_3 {
+    width: 49.5%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 1%; }
+
+  .span_4 {
+    width: 66.33333%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 1%; }
+
+  .span_5 {
+    width: 83.16667%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 1%; }
+
+  .span_6 {
+    margin-left: 0;
+    width: 100%; } }
+/* 3. 12 Column Grid 860px - Infinity 
+----------------------------------------------------------------------------- 
+
+Span 1:    7.41666666667%
+Span 2:    15.8333333333%
+Span 3:    24.25%
+Span 4:    32.6666666667%
+Span 5:    41.0833333333%
+Span 6:    49.5%
+Span 7:    57.9166666667%
+Span 8:    66.3333333333%
+Span 9:    74.75%
+Span 10:    83.1666666667%
+Span 11:    91.5833333333%
+Span 12:    100%
+
+----------------------------------------------------------------------------- */
+@media screen and (min-width: 860px) {
+  .col {
+    margin-left: 1%;
+    padding: 0 1%; }
+
+  /* --- Gridpak variables ---*/
+  .row .col:first-child {
+    margin-left: 0; }
+
+  .span_1 {
+    width: 7.41667%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 1%; }
+
+  .span_2 {
+    width: 15.83333%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 1%; }
+
+  .span_3 {
+    width: 24.25%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 1%; }
+
+  .span_4 {
+    width: 32.66667%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 1%; }
+
+  .span_5 {
+    width: 41.08333%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 1%; }
+
+  .span_6 {
+    width: 49.5%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 1%; }
+
+  .span_7 {
+    width: 57.91667%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 1%; }
+
+  .span_8 {
+    width: 66.33333%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 1%; }
+
+  .span_9 {
+    width: 74.75%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 1%; }
+
+  .span_10 {
+    width: 83.16667%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 1%; }
+
+  .span_11 {
+    width: 91.58333%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 1%; }
+
+  .span_12 {
+    margin-left: 0;
+    width: 100%; } }
+.right {
+  float: right; }
+
+.left {
+  float: left; }
+
+.central {
+  margin: 0 auto;
+  display: block; }
+
+.centre-text {
+  text-align: center; }
+
+/*# sourceMappingURL=gridpak.css.map */

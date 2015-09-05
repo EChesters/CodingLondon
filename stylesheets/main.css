@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono|Lato:100,300);
+/* COLOURS ----- */
+/* FONTS ------- */
+.divider {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+
+body {
+  background-color: #204156;
+  color: #eee; }
+
+header {
+  margin-top: 5%;
+  text-align: center; }
+
+/* TEXT --------------------------------------------- */
+h1 {
+  font-family: "Cutive Mono";
+  color: #eee;
+  font-size: 3em; }
+  h1.title {
+    text-align: center;
+    padding: 20px 0; }
+
+/* SECTIONS ----------------------------------------- */
+nav {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0; }
+  nav ul li {
+    display: inline-block;
+    padding: 0 25px; }
+    nav ul li a {
+      text-decoration: none;
+      color: #eee;
+      font-family: "Cutive Mono"; }
+
+#content {
+  font-family: "Lato", sans-serif; }
+
+/*# sourceMappingURL=main.css.map */
