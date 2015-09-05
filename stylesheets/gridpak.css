@@ -7,13 +7,13 @@
 /* Reusable column setup */
 .col {
   border: 0px solid transparent;
-  float: left;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   -moz-background-clip: padding-box !important;
   -webkit-background-clip: padding-box !important;
-  background-clip: padding-box !important; }
+  background-clip: padding-box !important;
+  display: inline-block; }
 
 /* 1. 4 Column Grid 0px - 519px 
 ----------------------------------------------------------------------------- 
