@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Cutive+Mono|Lato:100,300);
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono|Lato:100,300,400);
 /* COLOURS ----- */
 /* FONTS ------- */
 .divider {
@@ -19,13 +19,14 @@ header {
   background-color: #204156; }
 
 /* TEXT --------------------------------------------- */
-h1 {
-  font-family: "Cutive Mono";
-  color: #eee;
-  font-size: 3em; }
-  h1.title {
+h1.title {
+  padding: 20px 0; }
+  h1.title a {
+    font-family: "Cutive Mono";
+    color: #eee;
+    font-size: 3em;
     text-align: center;
-    padding: 20px 0; }
+    text-decoration: none; }
 
 h2 {
   font-size: 2.8em;
@@ -40,7 +41,8 @@ h3 {
 
 p {
   margin-bottom: 2%;
-  line-height: 1.3em; }
+  line-height: 1.3em;
+  font-weight: 300; }
 
 a.button {
   font-family: "Lato", sans-serif;
@@ -55,6 +57,12 @@ a.button {
     color: #eee;
     height: 50px;
     margin: 30px 10px; }
+
+a.link {
+  font-weight: 400;
+  color: #204156; }
+  a.link:hover {
+    text-decoration: none; }
 
 /* SECTIONS ----------------------------------------- */
 nav {

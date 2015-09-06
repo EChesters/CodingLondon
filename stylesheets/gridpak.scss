@@ -51,6 +51,7 @@
         .col {
             margin-left:1%;
             padding:0 1%;
+            overflow: auto;
         }
         
         /* --- Gridpak variables ---*/ 
@@ -61,11 +62,10 @@
         
 
         
-        .row .col:first-child {
+        .row .col:first-child { 
             @include span_first;
         }
-        
-        
+
         /*
         Add your semantic classnames in alongside their corresponding spans here. e.g.
         
@@ -219,6 +219,11 @@
             width:100%;
         }
     }
+
+.first {
+    @include span_first;
+    padding-left: 0;
+}
  
  .right {
     float: right;
@@ -235,4 +240,14 @@
 
 .centre-text {
     text-align: center;
+}
+
+.padding-vertical {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.padding-horizontal {
+    padding-left: 20px;
+    padding-right: 20px;
 }

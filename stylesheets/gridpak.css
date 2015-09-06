@@ -27,7 +27,8 @@ Span 4:    100%
 @media screen and (min-width: 0px) and (max-width: 519px) {
   .col {
     margin-left: 1%;
-    padding: 0 1%; }
+    padding: 0 1%;
+    overflow: auto; }
 
   /* --- Gridpak variables ---*/
   .row .col:first-child {
@@ -211,6 +212,10 @@ Span 12:    100%
   .span_12 {
     margin-left: 0;
     width: 100%; } }
+.first {
+  margin-left: 0;
+  padding-left: 0; }
+
 .right {
   float: right; }
 
@@ -226,6 +231,10 @@ Span 12:    100%
 
 .padding-vertical {
   padding-top: 20px;
-  padding-bottom: 20px;
-}
+  padding-bottom: 20px; }
+
+.padding-horizontal {
+  padding-left: 20px;
+  padding-right: 20px; }
+
 /*# sourceMappingURL=gridpak.css.map */
