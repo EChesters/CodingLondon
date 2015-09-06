@@ -65,7 +65,8 @@ a.button {
 
 a.link {
   font-weight: 400;
-  color: #204156; }
+  color: #204156;
+  bottom: 5px; }
   a.link:hover {
     text-decoration: none; }
 
