@@ -30,7 +30,8 @@ h1 {
 h2 {
   font-size: 2.8em;
   font-weight: 300;
-  margin: 15px 0; }
+  margin: 15px 0;
+  font-family: "Lato", sans-serif; }
 
 h3 {
   font-size: 2.5em;
@@ -40,6 +41,20 @@ h3 {
 p {
   margin-bottom: 2%;
   line-height: 1.3em; }
+
+a.button {
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
+  a.button.primary {
+    background-color: #1097d3;
+    padding: 10px 30px;
+    color: #eee;
+    height: 50px;
+    margin: 30px 10px; }
 
 /* SECTIONS ----------------------------------------- */
 nav {

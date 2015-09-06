@@ -224,4 +224,8 @@ Span 12:    100%
 .centre-text {
   text-align: center; }
 
+.padding-vertical {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 /*# sourceMappingURL=gridpak.css.map */
